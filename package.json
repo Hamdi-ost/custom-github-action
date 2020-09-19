@@ -8,5 +8,9 @@
     "bump": "npm version patch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "axios": "^0.20.0"
+  }
 }
