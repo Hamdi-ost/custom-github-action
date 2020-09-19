@@ -1,0 +1,7 @@
+name: "My github action"
+description: "Saying Hello"
+author: "Hamdi Ben yaflah"
+
+runs:
+  using: "node12"
+  main: "index.js"
