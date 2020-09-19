@@ -2,8 +2,9 @@
   "name": "custom-github-action",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "ncc build src/action.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump": "npm version patch"
   },
